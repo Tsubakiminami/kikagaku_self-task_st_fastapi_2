@@ -33,7 +33,7 @@ import my2_cnn as my_cnn
 # my_bar.progress(0.5, text=progress_text)    # Comment out on 2024/01/03
 
 
-batch_size = 64 # デプロイした時のメモリ節約で128->64 とした。
+batch_size = 32 # デプロイした時のメモリ節約で128->64-＞32 とした。
 num_epochs = 2
 device = torch.device('cpu')
 
@@ -192,7 +192,7 @@ def eXplainableAI2(im):
     images, images_nums = batch
 
 
-    background = images[:60]
+    background = images[:30]
     test_images = images[:2]
     test_images[0] = tensor_im
     print('　　　Background shap：', background.shape, type(background))  # (バッチサイズ、チャネル、高さ、幅) background.shape

@@ -154,8 +154,8 @@ def predict_img(upload_file):
     st.write('New Step 3')
 
     # FastAPIサーバーのベースURL
-    fastapi_base_url = 'http://127.0.0.1:8000' + '/'
-    # fastapi_base_url = 'https://kikagaku-self-task-st-fastapi.onrender.com' + '/'
+    # fastapi_base_url = 'http://127.0.0.1:8000' + '/'
+    fastapi_base_url = 'https://kikagaku-self-task-st-fastapi-2.onrender.com' + '/'
     # # FastAPIのエンドポイントを呼び出す
     # response = requests.get(fastapi_base_url)
     # # FastAPIからのレスポンスを表示

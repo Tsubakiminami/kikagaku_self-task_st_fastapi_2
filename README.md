@@ -22,7 +22,7 @@
 
 デプロイ URLs
 - Remote repositories on Github : https://github.com/Tsubakiminami/kikagaku_self-task_st_fastapi_2
-- Backend server by FastAPI on Render : https://kikagaku-self-task-st-fastapi.onrender.com/
+- Backend server by FastAPI on Render : https://kikagaku-self-task-st-fastapi-2.onrender.com
 - Frontend by Streamlit : https://kikagaku-self-task-st-fastapi.streamlit.app/　このURLから開きます。
 
 受講コース期間：令和5年(2023)8月〜令和6年1月
